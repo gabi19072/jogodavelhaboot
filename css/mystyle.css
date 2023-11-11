@@ -1,0 +1,178 @@
+/* Define as variáveis para utilização de cores*/
+:root {
+  --cor-fundo: rgb(255, 150, 199);
+  --cor-main: rgb(255, 84, 164);
+  --cor-main-dark: rgb(255, 84, 164);
+  --cor-fonte: rgb(255, 202, 228);
+  --jogadorX: rgb(0, 195, 255);
+}
+
+h4 {
+  color: #ff48a0;
+}
+
+p1 {
+  color: rgb(84, 90, 255);
+}
+
+.card-title {
+  color: rgb(255, 240, 70);
+}
+
+p {
+  color: rgb(255, 245, 132);
+}
+
+body {
+  background-image: url(../images/rtKejim.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Realiza o reset das configurações do navegador*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Pixelify Sans', sans-serif;
+  outline: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+/* Definição do barra de navegação */
+.bg-cor-que-eu-quero {
+  background: rgb(255, 84, 164);
+}
+
+#titulo {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+#navbar-items .navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.navbar-nav a {
+  color: var(--cor-fonte);
+}
+
+/* Ajusta as configurações do container*/
+.principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.principal a {
+  height: 4rem;
+}
+
+i {
+  font-size: 3rem;
+}
+
+#container-top {
+  margin-top: 5rem;
+}
+
+.tabuleiro {
+  width: 27rem;
+  height: 27rem;
+  margin: auto;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cel {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 8rem;
+  height: 8rem;
+  margin: .5rem;
+  background-color: #ffffff;
+  box-shadow: .25rem .25rem rgba(0, 102, 255, 0.348);
+}
+
+/* Definições do slider (galeria) */
+#slider {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#slider .carousel-caption {
+  bottom: 1em;
+}
+
+#slider .carousel-caption h5 {
+  font-size: 2.5em;
+  text-shadow: #000000 2px 2px;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+#slider .btn {
+  padding: 0.3em 0.7em;
+  font-size: 1em;
+  margin-top: 4em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 0.7;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  color: rgb(233, 229, 229);
+  font-size: 3em;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.8;
+}
+
+.carousel-indicators .active {
+  background-color: rgb(255, 240, 70);
+}
+
+@media (min-width: 768px) {
+  #slider .carousel-caption {
+    bottom: 1em;
+  }
+
+  #slider .carousel-caption h5 {
+    font-size: 2em;
+    text-shadow: #000000 2px 3px;
+  }
+
+  #slider .btn {
+    padding: 0.6em 1em;
+    font-size: 1em;
+    margin-top: 1em;
+  }
+
+  .carousel-indicators {
+    bottom: 0.25em;
+  }
+}
+
+.texto {
+  font-size: 0.75rem;
+  text-align: justify;
+}
+
+i {
+  
+  align-items: center;
+  font-size: 2.5em;
+  margin: .125em;
+}
