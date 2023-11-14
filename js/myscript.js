@@ -41,13 +41,13 @@ document.addEventListener('DOMContentLoaded', function() {
        // Conforme as verificações das jogadas, envia as mensagens específicas
        if (verifica(jogadorAtual)) {
             jogoAtivo = false;
-            status.textContent = `O jogador ${jogadorAtual} venceu!`;
+            status.textContent = `O jogador ${jogadorAtual} venceu!★`;
        } else if (tabuleiro.includes('')) {
             jogadorAtual = jogadorAtual === 'Ruby' ? 'Safira' : 'Ruby';
-            status.textContent = `É a vez do jogador ${jogadorAtual}`;
+            status.textContent = `Vez do jogador ${jogadorAtual} ★`;
        } else {
             jogoAtivo = false;
-            status.textContent = 'Empate!';
+            status.textContent = 'Empate!★';
        }
     }
 
